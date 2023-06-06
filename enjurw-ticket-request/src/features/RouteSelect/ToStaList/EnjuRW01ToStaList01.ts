@@ -1,4 +1,4 @@
-const EnjuRW01FromStaList01 = [
+const EnjuRW01ToStaList01 = [
   {
     id: 1,
     staCode: 'RW0101',
@@ -26,4 +26,4 @@ const EnjuRW01FromStaList01 = [
   },
 ];
 
-export default EnjuRW01FromStaList01;
+export default EnjuRW01ToStaList01;

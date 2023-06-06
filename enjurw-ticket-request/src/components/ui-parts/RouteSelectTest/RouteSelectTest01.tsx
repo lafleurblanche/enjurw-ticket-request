@@ -8,11 +8,14 @@ import { RouteNameAtom } from "recoil/atoms"
 import { EnjuRWRailwaySelect } from "features/RouteSelect/RailwaySelect"
 import { RouteSelectTest02 } from "./RouteSelectTest02"
 import {
-  ToStaSelectEnjuRW01
+  ToStaSelectEnjuRW01,
+  ToStaSelectEnjuRW02
 } from "features/RouteSelect/ToStaSelect"
 import {
-  FromStaSelectEnjuRW01
+  FromStaSelectEnjuRW01,
+  FromStaSelectEnjuRW02
 } from "features/RouteSelect/FromStaSelect"
+
 
 /**
  * ## 路線選択ボタングループ
@@ -90,8 +93,11 @@ export const RouteSelectTest01 = () => {
 
   const pageComponent: pageValue = {
     0: FromStaSelectEnjuRW01,
+    1: FromStaSelectEnjuRW02,
     19: RouteSelectTest02,
+    20: RouteSelectTest02,
     38: ToStaSelectEnjuRW01,
+    39: ToStaSelectEnjuRW02,
   };
 
 

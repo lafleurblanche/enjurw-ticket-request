@@ -5,7 +5,8 @@ import { useRecoilValue } from "recoil"
 import {
   EnjuRWRailwaySelect} from "features/RouteSelect/RailwaySelect"
 import {
-  ViaRouteSelectEnjuRW01
+  ViaRouteSelectEnjuRW01,
+  ViaRouteSelectEnjuRW02
 } from "features/RouteSelect/ViaRouteSelect"
 
 /* recoil(atoms) */
@@ -86,6 +87,7 @@ export const RouteSelectTest02 = () => {
 
   const pageComponent: pageValue = {
     19: ViaRouteSelectEnjuRW01,
+    20: ViaRouteSelectEnjuRW02,
   };
 
   const isRouteSelected = useRecoilValue(RouteNameAtom);
