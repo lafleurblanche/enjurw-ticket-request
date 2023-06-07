@@ -9,11 +9,15 @@ import { EnjuRWRailwaySelect } from "features/RouteSelect/RailwaySelect"
 import { RouteSelectTest02 } from "./RouteSelectTest02"
 import {
   ToStaSelectEnjuRW01,
-  ToStaSelectEnjuRW02
+  ToStaSelectEnjuRW02,
+  ToStaSelectEnjuRW03,
+  ToStaSelectEnjuRW04
 } from "features/RouteSelect/ToStaSelect"
 import {
   FromStaSelectEnjuRW01,
-  FromStaSelectEnjuRW02
+  FromStaSelectEnjuRW02,
+  FromStaSelectEnjuRW03,
+  FromStaSelectEnjuRW04
 } from "features/RouteSelect/FromStaSelect"
 
 
@@ -94,10 +98,16 @@ export const RouteSelectTest01 = () => {
   const pageComponent: pageValue = {
     0: FromStaSelectEnjuRW01,
     1: FromStaSelectEnjuRW02,
+    2: FromStaSelectEnjuRW03,
+    3: FromStaSelectEnjuRW04,
     19: RouteSelectTest02,
     20: RouteSelectTest02,
+    21: RouteSelectTest02,
+    22: RouteSelectTest02,
     38: ToStaSelectEnjuRW01,
     39: ToStaSelectEnjuRW02,
+    40: ToStaSelectEnjuRW03,
+    41: ToStaSelectEnjuRW04,
   };
 
 
