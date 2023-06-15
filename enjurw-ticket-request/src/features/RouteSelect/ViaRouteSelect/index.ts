@@ -5,3 +5,5 @@ export * from './ViaRouteSelectEnjuRW04';
 export * from './ViaRouteSelectEnjuRW05';
 export * from './ViaRouteSelectEnjuRW06';
 export * from './ViaRouteSelectEnjuRW07';
+export * from './ViaRouteSelectEnjuRW08';
+export * from './ViaRouteSelectEnjuRW09';
