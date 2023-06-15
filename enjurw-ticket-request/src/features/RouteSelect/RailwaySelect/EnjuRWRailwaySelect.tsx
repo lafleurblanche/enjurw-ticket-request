@@ -6,7 +6,9 @@ import Typography from "@mui/material/Typography"
 
 /* features(RouteSelect) */
 import {
-  EnjuRWRailwayList01, EnjuRWRailwayList02
+  EnjuRWRailwayList01,
+  EnjuRWRailwayList02,
+  EnjuRWRailwayList03
 } from "features/RouteSelect/RailwayList"
 
 /* recoil */
@@ -87,6 +89,45 @@ export const EnjuRWRailwaySelect = () => {
         size="large"
       >
         {EnjuRWRailwayList02.map(p => (
+          <Button
+            key={p.id}
+            sx={{
+              height: '100px',
+              width: '100px'
+            }}
+            onClick={() => handleOnClick(p.routeName1, p.routeName2)}
+          >
+            <Typography
+              color="inherit"
+              noWrap
+              sx={{
+                flexGrow: 1,
+                fontSize: 16
+              }}
+            >
+              {p.routeName1}<br/>{p.routeName2}
+            </Typography>
+          </Button>
+        )
+      )}
+    </ButtonGroup>
+   </Box>
+   <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        '& > *': {
+          m: 0.05,
+        },
+      }}
+    >
+      <ButtonGroup
+        variant="outlined"
+        aria-label="outlined large button group"
+        size="large"
+      >
+        {EnjuRWRailwayList03.map(p => (
           <Button
             key={p.id}
             sx={{
