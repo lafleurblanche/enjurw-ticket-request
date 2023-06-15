@@ -7,3 +7,5 @@ export { default as EnjuRW06FromStaList01 } from './EnjuRW06FromStaList01';
 export { default as EnjuRW07FromStaList01 } from './EnjuRW07FromStaList01';
 export { default as EnjuRW08FromStaList01 } from './EnjuRW08FromStaList01';
 export { default as EnjuRW09FromStaList01 } from './EnjuRW09FromStaList01';
+export { default as EnjuRW10FromStaList01 } from './EnjuRW10FromStaList01';
+export { default as EnjuRW11FromStaList01 } from './EnjuRW11FromStaList01';
