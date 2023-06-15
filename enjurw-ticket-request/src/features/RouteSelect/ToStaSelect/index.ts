@@ -5,3 +5,5 @@ export * from './ToStaSelectEnjuRW04';
 export * from './ToStaSelectEnjuRW05';
 export * from './ToStaSelectEnjuRW06';
 export * from './ToStaSelectEnjuRW07';
+export * from './ToStaSelectEnjuRW08';
+export * from './ToStaSelectEnjuRW09';
