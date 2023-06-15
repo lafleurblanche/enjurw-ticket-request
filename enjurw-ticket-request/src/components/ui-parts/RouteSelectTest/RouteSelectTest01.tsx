@@ -16,7 +16,9 @@ import {
   ToStaSelectEnjuRW06,
   ToStaSelectEnjuRW07,
   ToStaSelectEnjuRW08,
-  ToStaSelectEnjuRW09
+  ToStaSelectEnjuRW09,
+  ToStaSelectEnjuRW10,
+  ToStaSelectEnjuRW11
 } from "features/RouteSelect/ToStaSelect"
 import {
   FromStaSelectEnjuRW01,
@@ -27,7 +29,9 @@ import {
   FromStaSelectEnjuRW06,
   FromStaSelectEnjuRW07,
   FromStaSelectEnjuRW08,
-  FromStaSelectEnjuRW09
+  FromStaSelectEnjuRW09,
+  FromStaSelectEnjuRW10,
+  FromStaSelectEnjuRW11
 } from "features/RouteSelect/FromStaSelect"
 
 
@@ -115,6 +119,8 @@ export const RouteSelectTest01 = () => {
     6: FromStaSelectEnjuRW07,
     7: FromStaSelectEnjuRW08,
     8: FromStaSelectEnjuRW09,
+    9: FromStaSelectEnjuRW10,
+    10: FromStaSelectEnjuRW11,
     19: RouteSelectTest02,
     20: RouteSelectTest02,
     21: RouteSelectTest02,
@@ -124,6 +130,8 @@ export const RouteSelectTest01 = () => {
     25: RouteSelectTest02,
     26: RouteSelectTest02,
     27: RouteSelectTest02,
+    28: RouteSelectTest02,
+    29: RouteSelectTest02,
     38: ToStaSelectEnjuRW01,
     39: ToStaSelectEnjuRW02,
     40: ToStaSelectEnjuRW03,
@@ -133,6 +141,8 @@ export const RouteSelectTest01 = () => {
     44: ToStaSelectEnjuRW07,
     45: ToStaSelectEnjuRW08,
     46: ToStaSelectEnjuRW09,
+    47: ToStaSelectEnjuRW10,
+    48: ToStaSelectEnjuRW11,
   };
 
 
