@@ -9,3 +9,4 @@ export * from './ToStaSelectEnjuRW08';
 export * from './ToStaSelectEnjuRW09';
 export * from './ToStaSelectEnjuRW10';
 export * from './ToStaSelectEnjuRW11';
+export * from './ToStaSelectEnjuRW12';

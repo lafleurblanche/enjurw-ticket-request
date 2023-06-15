@@ -15,7 +15,8 @@ import {
   ViaRouteSelectEnjuRW08,
   ViaRouteSelectEnjuRW09,
   ViaRouteSelectEnjuRW10,
-  ViaRouteSelectEnjuRW11
+  ViaRouteSelectEnjuRW11,
+  ViaRouteSelectEnjuRW12
 } from "features/RouteSelect/ViaRouteSelect"
 
 /* recoil(atoms) */
@@ -106,6 +107,7 @@ export const RouteSelectTest02 = () => {
     27: ViaRouteSelectEnjuRW09,
     28: ViaRouteSelectEnjuRW10,
     29: ViaRouteSelectEnjuRW11,
+    30: ViaRouteSelectEnjuRW12,
   };
 
   const isRouteSelected = useRecoilValue(RouteNameAtom);
