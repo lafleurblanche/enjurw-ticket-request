@@ -5,3 +5,5 @@ export * from './FromStaSelectEnjuRW04';
 export * from './FromStaSelectEnjuRW05';
 export * from './FromStaSelectEnjuRW06';
 export * from './FromStaSelectEnjuRW07';
+export * from './FromStaSelectEnjuRW08';
+export * from './FromStaSelectEnjuRW09';
