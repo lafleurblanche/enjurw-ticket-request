@@ -10,3 +10,5 @@ export { default as ViaRouteListEnjuRW09 } from './ViaRouteListEnjuRW09';
 export { default as ViaRouteListEnjuRW10 } from './ViaRouteListEnjuRW10';
 export { default as ViaRouteListEnjuRW11 } from './ViaRouteListEnjuRW11';
 export { default as ViaRouteListEnjuRW12 } from './ViaRouteListEnjuRW12';
+export { default as ViaRouteListEnjuRW13 } from './ViaRouteListEnjuRW13';
+export { default as ViaRouteListEnjuRW14 } from './ViaRouteListEnjuRW14';
