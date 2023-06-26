@@ -18,7 +18,8 @@ import {
   ViaRouteSelectEnjuRW11,
   ViaRouteSelectEnjuRW12,
   ViaRouteSelectEnjuRW13,
-  ViaRouteSelectEnjuRW14
+  ViaRouteSelectEnjuRW14,
+  ViaRouteSelectEnjuRWCmn
 } from "features/RouteSelect/ViaRouteSelect"
 
 /* recoil(atoms) */
@@ -98,11 +99,11 @@ export const RouteSelectTest02 = () => {
   );
 
   const pageComponent: pageValue = {
-    19: ViaRouteSelectEnjuRW01,
-    20: ViaRouteSelectEnjuRW02,
-    21: ViaRouteSelectEnjuRW03,
-    22: ViaRouteSelectEnjuRW04,
-    23: ViaRouteSelectEnjuRW05,
+    19: ViaRouteSelectEnjuRWCmn,
+    20: ViaRouteSelectEnjuRWCmn,
+    21: ViaRouteSelectEnjuRWCmn,
+    22: ViaRouteSelectEnjuRWCmn,
+    23: ViaRouteSelectEnjuRWCmn,
     24: ViaRouteSelectEnjuRW06,
     25: ViaRouteSelectEnjuRW07,
     26: ViaRouteSelectEnjuRW08,
