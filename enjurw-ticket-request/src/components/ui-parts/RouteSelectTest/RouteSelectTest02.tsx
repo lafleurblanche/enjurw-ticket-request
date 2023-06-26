@@ -5,11 +5,6 @@ import { useRecoilValue } from "recoil"
 import {
   EnjuRWRailwaySelect} from "features/RouteSelect/RailwaySelect"
 import {
-  ViaRouteSelectEnjuRW01,
-  ViaRouteSelectEnjuRW02,
-  ViaRouteSelectEnjuRW03,
-  ViaRouteSelectEnjuRW04,
-  ViaRouteSelectEnjuRW05,
   ViaRouteSelectEnjuRW06,
   ViaRouteSelectEnjuRW07,
   ViaRouteSelectEnjuRW08,
