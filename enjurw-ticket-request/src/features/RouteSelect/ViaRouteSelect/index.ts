@@ -12,3 +12,4 @@ export * from './ViaRouteSelectEnjuRW11';
 export * from './ViaRouteSelectEnjuRW12';
 export * from './ViaRouteSelectEnjuRW13';
 export * from './ViaRouteSelectEnjuRW14';
+export * from './ViaRouteSelectEnjuRWCmn';
