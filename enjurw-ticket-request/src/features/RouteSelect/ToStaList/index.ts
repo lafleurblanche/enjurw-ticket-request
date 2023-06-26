@@ -12,3 +12,4 @@ export { default as EnjuRW11ToStaList01 } from './EnjuRW11ToStaList01';
 export { default as EnjuRW12ToStaList01 } from './EnjuRW12ToStaList01';
 export { default as EnjuRW13ToStaList01 } from './EnjuRW13ToStaList01';
 export { default as EnjuRW14ToStaList01 } from './EnjuRW14ToStaList01';
+export { default as EnjuRW15ToStaList01 } from './EnjuRW15ToStaList01';
