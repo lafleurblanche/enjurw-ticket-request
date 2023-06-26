@@ -78,7 +78,7 @@ export const RequestInquirySelect01 = () => {
     discountCode: "割引種別",
     postPayCode: "後払種別",
     specialNote: "特記事項",
-    sectorKbn: "ARGW",
+    sectorKbn: "ENJU",
   }
 
   const handleOnClick = (menuCode: String) => {
