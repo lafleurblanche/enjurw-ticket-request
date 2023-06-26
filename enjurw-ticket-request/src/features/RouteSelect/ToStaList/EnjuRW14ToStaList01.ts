@@ -1,13 +1,13 @@
-const EnjuRW13ToStaList01 = [
+const EnjuRW14ToStaList01 = [
   {
     id: 1,
-    staCode: 'RW1301',
-    staName: '玿谷'
+    staCode: 'RW1401',
+    staName: '珮谷'
   },
   {
     id: 2,
-    staCode: 'RW1302',
-    staName: '上玿谷'
+    staCode: 'RW1402',
+    staName: '上珮谷'
   },
   {
     id: 3,
@@ -26,4 +26,4 @@ const EnjuRW13ToStaList01 = [
   },
 ];
 
-export default EnjuRW13ToStaList01;
+export default EnjuRW14ToStaList01;
