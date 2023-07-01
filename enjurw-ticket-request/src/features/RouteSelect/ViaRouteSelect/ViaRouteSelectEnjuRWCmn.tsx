@@ -16,7 +16,8 @@ import {
 import {
   ViaRouteListEnjuRWCmn01,
   ViaRouteListEnjuRWCmn02,
-  ViaRouteListEnjuRWCmn03
+  ViaRouteListEnjuRWCmn03,
+  ViaRouteListEnjuRWCmn04
 } from "features/RouteSelect/ViaRouteList"
 
 /**
@@ -130,6 +131,46 @@ export const ViaRouteSelectEnjuRWCmn = () => {
       >
         {
           ViaRouteListEnjuRWCmn03.map(p => (
+            <Button
+              key={p.id}
+              sx={{
+                height: '100px',
+                width: '100px'
+              }}
+              onClick={() => handleOnClick(p.selectedRoute)}
+            >
+              <Typography
+                color="inherit"
+                noWrap
+                sx={{
+                  flexGrow: 1,
+                  fontSize: 15
+                }}
+              >
+                {p.routeName}
+              </Typography>
+            </Button>
+          ))
+        }
+      </ButtonGroup>
+   </Box>
+   <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        '& > *': {
+          m: 0.05,
+        },
+      }}
+    >
+      <ButtonGroup
+        variant="outlined"
+        aria-label="outlined large button group"
+        size="large"
+      >
+        {
+          ViaRouteListEnjuRWCmn04.map(p => (
             <Button
               key={p.id}
               sx={{
