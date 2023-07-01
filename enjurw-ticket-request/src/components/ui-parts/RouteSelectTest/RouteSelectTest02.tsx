@@ -110,6 +110,7 @@ export const RouteSelectTest02 = () => {
     32: ViaRouteSelectEnjuRW14,
     33: ViaRouteSelectEnjuRWCmn,
     34: ViaRouteSelectEnjuRWCmn,
+    35: ViaRouteSelectEnjuRWCmn,
   };
 
   const isRouteSelected = useRecoilValue(RouteNameAtom);
