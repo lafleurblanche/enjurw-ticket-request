@@ -17,3 +17,7 @@ export { default as EnjuRW16FromStaList01 } from './EnjuRW16FromStaList01';
 export { default as EnjuRW17FromStaList01 } from './EnjuRW17FromStaList01';
 export { default as EnjuRW17FromStaList02 } from './EnjuRW17FromStaList02';
 export { default as EnjuRW17FromStaList03 } from './EnjuRW17FromStaList03';
+export { default as EnjuRW18FromStaList01 } from './EnjuRW18FromStaList01';
+export { default as EnjuRW18FromStaList02 } from './EnjuRW18FromStaList02';
+export { default as EnjuRW19FromStaList01 } from './EnjuRW19FromStaList01';
+export { default as EnjuRW19FromStaList02 } from './EnjuRW19FromStaList02';

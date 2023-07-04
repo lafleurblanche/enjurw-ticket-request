@@ -15,3 +15,5 @@ export * from './FromStaSelectEnjuRW14';
 export * from './FromStaSelectEnjuRW15';
 export * from './FromStaSelectEnjuRW16';
 export * from './FromStaSelectEnjuRW17';
+export * from './FromStaSelectEnjuRW18';
+export * from './FromStaSelectEnjuRW19';

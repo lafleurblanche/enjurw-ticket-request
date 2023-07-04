@@ -15,3 +15,5 @@ export * from './ToStaSelectEnjuRW14';
 export * from './ToStaSelectEnjuRW15';
 export * from './ToStaSelectEnjuRW16';
 export * from './ToStaSelectEnjuRW17';
+export * from './ToStaSelectEnjuRW18';
+export * from './ToStaSelectEnjuRW19';
